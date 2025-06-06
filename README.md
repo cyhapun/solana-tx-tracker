@@ -144,4 +144,4 @@ solana-tx-tracker/
 MIT License
 
 ## Author
-Your Name
+Chau Huynh Phuc (Cyhapun)

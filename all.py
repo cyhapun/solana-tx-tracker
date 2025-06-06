@@ -8,8 +8,9 @@ from datetime import datetime, timedelta
 import pytz
 import traceback
 
-HELIUS_RPC = "https://mainnet.helius-rpc.com/?api-key=463c8aa3-2f58-4b15-8890-943b47097a3c"
-HELIOUS_WS = "wss://rpc.helius.xyz/?api-key=463c8aa3-2f58-4b15-8890-943b47097a3c"
+API_KEY = "YOUR_API_KEY"
+HELIUS_RPC = f"https://mainnet.helius-rpc.com/?api-key={API_KEY}"
+HELIOUS_WS = f"wss://rpc.helius.xyz/?api-key={API_KEY}"
 TOKEN_LIST_URL = "https://raw.githubusercontent.com/solana-labs/token-list/main/src/tokens/solana.tokenlist.json"
 
 TOKEN_SYMBOL_MAP = {}
