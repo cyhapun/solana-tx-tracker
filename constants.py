@@ -1,4 +1,4 @@
-API_KEY = "YOUR_API_KEY"
+API_KEY = "463c8aa3-2f58-4b15-8890-943b47097a3c"
 HELIUS_RPC = f"https://mainnet.helius-rpc.com/?api-key={API_KEY}"
 HELIOUS_WS = f"wss://rpc.helius.xyz/?api-key={API_KEY}"
 TOKEN_LIST_URL = "https://raw.githubusercontent.com/solana-labs/token-list/main/src/tokens/solana.tokenlist.json"

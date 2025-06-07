@@ -1,8 +1,12 @@
 import asyncio
 from solana_client import load_token_symbols, analyze_solana_wallet
 from transaction_monitor import track_sol_tx_websocket
+from constants import API_KEY
 
 def main():
+    if API_KEY == "YOUR_API_KEY":
+        print("[!] Vui lòng cập nhật API_KEY trong file constants.py trước khi chạy chương trình.")
+        return
     print("="*200)
     print(" "*80 + "CHƯƠNG TRÌNH THEO DÕI VÀ PHÂN TÍCH GIAO DỊCH SOLANA")
     print("="*200 + "\n")
